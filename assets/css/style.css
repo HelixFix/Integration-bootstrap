@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
+/*nav {
+    display: inline-block;
+    
+}*/
+
+
+
+ul {
+    display: flex;
+    list-style-type: none;
+
+}
