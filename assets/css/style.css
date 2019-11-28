@@ -26,6 +26,7 @@ ul {
 
 h1 {
     color: white;
+    padding-top: 300px;
 }
 
 h2 {
@@ -34,6 +35,7 @@ h2 {
 
 h3 {
     text-transform: uppercase;
+    padding-top: 68px;
 }
 
 /* header start */
@@ -44,30 +46,71 @@ h3 {
     background-position: center;
     height: 898px;
 }
+
+a.nav-link {
+    color: white;
+    padding-top: 39px;
+    padding-bottom: 39px;
+    margin: 0 0;
+
+}
+
 nav {
     height: 90px;
     background-color: rgba(0, 0, 0, .5);
+
 }
 
 
-
-ul {
-    display: flex;
-    list-style-type: none;
-}
 
 /* nav end */
+/* section head end */
 
 /* section GEN start */
-
 
 #gen {
     height: 481px;
     background-color: white;
 }
 
+#formation {
+    padding-top: 95px;
+    
+}
 
+#p-gen {
+    padding-top: 96px;
 
+}
+
+#formation  ul {
+    
+    list-style: none;
+    word-wrap: break-word;
+    margin: 0;
+    
+}
+
+#formation  li::before {
+    content: "•";
+    color: red;
+    width: 1em;
+    margin-left: -3em
+}
+
+#formationColGauche {
+    text-align: right;
+}
+
+#logo-gen {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#listing {
+    
+    flex-wrap: wrap;
+}
 .btn-more {
     text-align: center;
     margin-top: 52px;
@@ -75,15 +118,22 @@ ul {
 }
 
 /* section GEN end */
-/* section head end */
-
 
 /* section Un enseignement adapté start*/
 
 #enseignement {
-    height: 445px;
+    
     background-image: url(/assets/images/projet-collaboratif-bg.png);
     color: white;
+
+}
+
+#p-enseignement {
+
+    display: flex;
+    flex-wrap: wrap;
+    
+
 }
 
 /* section Un enseignement adapté end*/
@@ -94,6 +144,7 @@ ul {
     height: 577px;
     background-color: rgb(62, 62, 62);
     color: white;
+    
 }
 
 /* section À chacun son métier end */
@@ -104,6 +155,7 @@ ul {
 #titre-pro {
     background-color: white;
     height: 453px;
+   
 }
 
 
