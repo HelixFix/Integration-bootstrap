@@ -8,6 +8,33 @@
     src: url("/assets/fonts/Open_sans_font/OpenSans-Regular.ttf") format("ttf");
 }
 
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url("/assets/fonts/Open_sans_font/OpenSans-Regular.ttf") format("ttf")
+  }
+  @font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    src: url("/assets/fonts/Open_sans_font/OpenSans-SemiBold.ttf") format("ttf")
+  }
+  @font-face {
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-weight: 400;
+    src: local('Open Sans Italic'), local('OpenSans-Italic'), url(http://src: url("/assets/fonts/Open_sans_font/OpenSans-Regular.ttf") format("ttf")
+  }
+  @font-face {
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-weight: 600;
+    src: url("/assets/fonts/Open_sans_font/OpenSans-Regular.ttf") format("ttf")
+  }
+
+
 /*
 @media (min-width: 360) {
     .container {
@@ -40,6 +67,10 @@ p {
    font-size: 14px;
 }
 
+.title {
+    font-style: normal;
+    font-weight: 600;
+}
 
 /* header start */
 /* nav start */
@@ -181,3 +212,10 @@ nav {
 
 
 /* section À chacun son projet end */
+
+.projetimg {
+    padding-top: 77px;
+}
+.projet {
+    padding-left: 100px;
+}
