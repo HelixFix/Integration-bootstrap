@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    font-family: ;
+   
 }
 
 @font-face {
@@ -20,9 +20,7 @@ ul {
     text-transform: uppercase;
 }
 
-.title {
-    text-align: center;
-}
+
 
 h1 {
     color: white;
@@ -37,6 +35,11 @@ h3 {
     text-transform: uppercase;
     padding-top: 68px;
 }
+
+p {
+   font-size: 14px;
+}
+
 
 /* header start */
 /* nav start */
@@ -91,10 +94,14 @@ nav {
     
 }
 
+#formation li {
+    word-wrap: break-word;
+}
+
 #formation  li::before {
     content: "•";
     color: red;
-    width: 1em;
+    width: 1.2em;
     margin-left: -3em
 }
 
@@ -102,10 +109,10 @@ nav {
     text-align: right;
 }
 
-#logo-gen {
+/*#logo-gen {
     display: flex;
     flex-wrap: wrap;
-}
+}*/
 
 #listing {
     
@@ -125,15 +132,29 @@ nav {
     
     background-image: url(/assets/images/projet-collaboratif-bg.png);
     color: white;
+    height: 445px;
 
 }
 
-#p-enseignement {
 
-    display: flex;
-    flex-wrap: wrap;
+#p-logo {
+ 
     
+}
+#p-enseignement {
+    
+    
+    font-size: 14px;
+    text-align: center;
 
+
+}
+
+.logo {
+    padding-top: 105px;
+    padding-bottom: 40px;
+    display: grid;
+    justify-content: center;
 }
 
 /* section Un enseignement adapté end*/
