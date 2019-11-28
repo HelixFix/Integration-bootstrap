@@ -8,6 +8,18 @@
     src: url("/assets/fonts/Open_sans_font/OpenSans-Regular.ttf") format("ttf");
 }
 
+/*
+@media (min-width: 360) {
+    .container {
+        max-width: 360;
+    }
+}
+*/
+
+ul {
+    text-transform: uppercase;
+}
+
 .title {
     text-align: center;
 }
@@ -26,6 +38,12 @@ h3 {
 
 /* header start */
 /* nav start */
+
+#header {
+    background-image: url(/assets/images/bg-header.png);
+    background-position: center;
+    height: 898px;
+}
 nav {
     height: 90px;
     background-color: rgba(0, 0, 0, .5);
@@ -41,33 +59,52 @@ ul {
 /* nav end */
 
 /* section GEN start */
-#header {
-    background-image: url(/assets/images/bg-header.png);
-    background-position: center;
-    height: 898px;
+
+
+#gen {
+    height: 481px;
+    background-color: white;
 }
 
-#gen {}
+
 
 .btn-more {
     text-align: center;
-
-
+    margin-top: 52px;
     width: 200px;
 }
 
 /* section GEN end */
+/* section head end */
+
+
 /* section Un enseignement adapté start*/
 
-/*#enseignement {
-    height: 898px;
-    background-image: url(/assets/images/bg-header.png);
+#enseignement {
+    height: 445px;
+    background-image: url(/assets/images/projet-collaboratif-bg.png);
+    color: white;
 }
 
 /* section Un enseignement adapté end*/
 
-@media (min-width: 360) {
-    .container {
-        max-width: 360;
-    }
+/* section À chacun son métier start */
+
+#projet {
+    height: 577px;
+    background-color: rgb(62, 62, 62);
+    color: white;
 }
+
+/* section À chacun son métier end */
+
+
+/* section À chacun son projet start */
+
+#titre-pro {
+    background-color: white;
+    height: 453px;
+}
+
+
+/* section À chacun son projet end */
