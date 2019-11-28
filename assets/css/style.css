@@ -8,8 +8,31 @@
     src: url("/assets/fonts/Open_sans_font/OpenSans-Regular.ttf") format("ttf");
 }
 
+.title {
+    text-align: center;
+}
+
+h1 {
+    color: white;
+}
+
+h2 {
+    color: white;
+}
+
+h3 {
+    text-transform: uppercase;
+}
+
 /* header start */
 /* nav start */
+nav {
+    height: 90px;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+
+
 ul {
     display: flex;
     list-style-type: none;
@@ -18,17 +41,33 @@ ul {
 /* nav end */
 
 /* section GEN start */
-#gen {
-    height: 898px;
+#header {
     background-image: url(/assets/images/bg-header.png);
+    background-position: center;
+    height: 898px;
+}
+
+#gen {}
+
+.btn-more {
+    text-align: center;
+
+
+    width: 200px;
 }
 
 /* section GEN end */
 /* section Un enseignement adapté start*/
 
-#enseignement {
+/*#enseignement {
     height: 898px;
     background-image: url(/assets/images/bg-header.png);
 }
 
 /* section Un enseignement adapté end*/
+
+@media (min-width: 360) {
+    .container {
+        max-width: 360;
+    }
+}
