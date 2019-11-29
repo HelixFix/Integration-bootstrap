@@ -1,12 +1,9 @@
 * {
     box-sizing: border-box;
-   
+
 }
 
-@font-face {
-    font-family: "Open Sans";
-    src: url("/assets/fonts/Open_sans_font/OpenSans-Regular.ttf") format("ttf");
-}
+
 
 
 @font-face {
@@ -14,25 +11,23 @@
     font-style: normal;
     font-weight: 400;
     src: url("/assets/fonts/Open_sans_font/OpenSans-Regular.ttf") format("ttf")
-  }
-  @font-face {
-    font-family: 'Open Sans';
+}
+
+@font-face {
+    font-family: 'Open Sans SemiBold';
     font-style: normal;
     font-weight: 600;
     src: url("/assets/fonts/Open_sans_font/OpenSans-SemiBold.ttf") format("ttf")
-  }
-  @font-face {
-    font-family: 'Open Sans';
-    font-style: italic;
-    font-weight: 400;
-    src: local('Open Sans Italic'), local('OpenSans-Italic'), url(http://src: url("/assets/fonts/Open_sans_font/OpenSans-Regular.ttf") format("ttf")
-  }
-  @font-face {
-    font-family: 'Open Sans';
-    font-style: italic;
-    font-weight: 600;
-    src: url("/assets/fonts/Open_sans_font/OpenSans-Regular.ttf") format("ttf")
-  }
+}
+
+@font-face {
+    font-family: 'Open Sans Light';
+    font-style: normal;
+    font-weight: 300;
+    src: url("/assets/fonts/Open_sans_font/OpenSans-Light.ttf") format("ttf")
+}
+
+
 
 
 /*
@@ -52,24 +47,33 @@ ul {
 h1 {
     color: white;
     padding-top: 300px;
+    font-size: 50px;
+    font-family: 'Open Sans SemiBold';
 }
 
 h2 {
     color: white;
+    background-color: rgba(83, 83, 83, 0.5);
+    font-family: "Open Sans Light";
+    font-size: 36px;
 }
 
 h3 {
+
     text-transform: uppercase;
     padding-top: 68px;
+    font-weight: 600;
 }
 
 p {
-   font-size: 14px;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
 }
 
 .title {
-    font-style: normal;
-    font-weight: 600;
+    font-family: 'Open Sans SemiBold';
+    font-size: 30px;
+
 }
 
 /* header start */
@@ -92,9 +96,19 @@ a.nav-link {
 nav {
     height: 90px;
     background-color: rgba(0, 0, 0, .5);
-
+    font-family: 'Open Sans SemiBold';
+    font-size: 16px;
 }
 
+.btn-more {
+    text-align: center;
+    background-image: url(/assets/images/btn\ bg.png);
+    margin-top: 52px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 53px;
+}
 
 
 /* nav end */
@@ -109,14 +123,12 @@ nav {
 
 #formation {
     padding-top: 95px;
-    
-}
-
-#p-gen {
-    padding-top: 96px;
 
 }
 
+
+
+/*
 #formation  ul {
     
     list-style: none;
@@ -134,7 +146,7 @@ nav {
     color: red;
     width: 1.2em;
     margin-left: -3em
-}
+}*/
 
 #formationColGauche {
     text-align: right;
@@ -145,22 +157,15 @@ nav {
     flex-wrap: wrap;
 }*/
 
-#listing {
-    
-    
-}
-.btn-more {
-    text-align: center;
-    margin-top: 52px;
-    width: 200px;
-}
+
+
 
 /* section GEN end */
 
 /* section Un enseignement adapté start*/
 
 #enseignement {
-    
+
     background-image: url(/assets/images/projet-collaboratif-bg.png);
     color: white;
     height: 445px;
@@ -168,13 +173,10 @@ nav {
 }
 
 
-#p-logo {
- 
-    
-}
+
 #p-enseignement {
-    
-    
+
+font-family: "Open Sans", sans-serif;
     font-size: 14px;
     text-align: center;
 
@@ -196,7 +198,12 @@ nav {
     height: 577px;
     background-color: rgb(62, 62, 62);
     color: white;
+
+}
+
+.métier {
     
+    padding-bottom: 72px;
 }
 
 /* section À chacun son métier end */
@@ -207,15 +214,28 @@ nav {
 #titre-pro {
     background-color: white;
     height: 453px;
-   
+
 }
 
 
-/* section À chacun son projet end */
+.btn-register {
+    text-align: center;
+    line-height: 53px;
+    background-image: url(/assets/images/btn\ bg.png);
+    text-transform: uppercase;
+}
 
 .projetimg {
     padding-top: 77px;
 }
+
 .projet {
     padding-left: 100px;
 }
+
+.chacun {
+   
+    padding-bottom: 64px;
+}
+/* section À chacun son projet end */
+
