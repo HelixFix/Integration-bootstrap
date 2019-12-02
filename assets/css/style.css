@@ -31,7 +31,13 @@ font-weight: normal;
 src: local('OpenSans-Regular'), url('/assets/fonts/Open_sans_font/OpenSans-Regular.ttf') format('woff');
 }
 
-
+@font-face
+{
+font-family: 'OpenSans-Bold';
+font-style: normal;
+font-weight: normal;
+src: local('OpenSans-Bold'), url('/assets/fonts/Open_sans_font/OpenSans-Bold.ttf') format('woff');
+}
 
 /*
 @media (min-width: 360) {
@@ -67,6 +73,12 @@ h3 {
     padding-top: 70px;
     
     padding-bottom: 23px;
+}
+
+h4 {
+    font-size: 14px;
+    font-family: 'OpenSans-Bold';
+
 }
 
 p {
@@ -258,6 +270,7 @@ font-family: "OpenSans-Regular";
     line-height: 53px;
     background-image: url(/assets/images/btn\ bg.png);
     text-transform: uppercase;
+    width: 200px;
 }
 
 .projetimg {
