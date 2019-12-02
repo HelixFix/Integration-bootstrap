@@ -123,7 +123,7 @@ nav {
 }
 
 #accueil:hover {
-    background: rgb(255, 255, 255);
+    background: rgb(29, 26, 26);
 }
 
 .btn-more {
@@ -229,9 +229,13 @@ font-family: "OpenSans-Regular";
     width: 100%;
     background-position: center;
     color: white;
-
+    
 }
 
+
+.projet {
+    padding-right: 0px;
+}
 .métier {
     
     padding-bottom: 29px;
@@ -260,6 +264,12 @@ font-family: "OpenSans-Regular";
     padding-top: 77px;
     padding-right: 0;
     width: 100%;
+}
+
+.test {
+    align-items: center;
+    display: grid;
+    padding-left: 0px;
 }
 
 
