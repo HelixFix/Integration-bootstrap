@@ -115,7 +115,7 @@ p {
 #header {
     background: url(/assets/images/bg-header.png) no-repeat;
     background-position: center;
-    height: 898px;
+    padding-bottom: 273px;
 }
 
 a.nav-link {
@@ -169,7 +169,7 @@ nav {
 /* section GEN start */
 
 #gen {
-    height: 481px;
+    padding-bottom: 114px;
     background-color: white;
 }
 
@@ -178,6 +178,11 @@ nav {
 
 }
 
+
+.logocenter {
+    display: flex;
+    justify-content: center;
+}
 
 
 /*
@@ -202,6 +207,7 @@ nav {
 
 #formationColGauche {
     text-align: right;
+    padding-left: 0px;
 }
 
 /*#logo-gen {
@@ -222,7 +228,7 @@ nav {
     color: white;
     width: 100%;
     background-position: center;
-    height: 445px;
+    padding-bottom: 73px;
 
 }
 
