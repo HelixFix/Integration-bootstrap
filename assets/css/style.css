@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
-padding-left: 0;
+    margin: 0;
+    padding: 0;
 }
 
 
@@ -63,7 +64,7 @@ h2 {
 h3 {
 
     text-transform: uppercase;
-    padding-top: 68px;
+    padding-top: 70px;
     
     padding-bottom: 23px;
 }
@@ -87,7 +88,7 @@ p {
 /* nav start */
 
 #header {
-    background-image: url(/assets/images/bg-header.png);
+    background: url(/assets/images/bg-header.png) no-repeat;
     background-position: center;
     height: 898px;
 }
@@ -102,9 +103,19 @@ a.nav-link {
 
 nav {
     height: 90px;
-    background-color: rgba(0, 0, 0, .5);
+    background: url(/assets/images/nav\ bg.png) no-repeat;
+    width: 100%;
+    background-position: center;
     font-family: 'OpenSans-semiBolt';
     font-size: 16px;
+}
+
+.navbar-toggler-icon {
+    color: white;
+}
+
+.nav-item:hover a {
+    background: rgb(211, 31, 68);
 }
 
 .btn-more {
@@ -115,6 +126,7 @@ nav {
     margin-left: auto;
     margin-right: auto;
     line-height: 53px;
+    color: white;
 }
 
 
@@ -173,8 +185,9 @@ nav {
 
 #enseignement {
 
-    background-image: url(/assets/images/projet-collaboratif-bg.png);
-    color: white;
+    background: url(/assets/images/projet-collaboratif-bg.png) no-repeat;
+    width: 100%;
+    background-position: center;
     height: 445px;
 
 }
@@ -191,7 +204,7 @@ font-family: "OpenSans-Regular";
 }
 
 .logo {
-    padding-top: 105px;
+    padding-top: 72px;
     padding-bottom: 40px;
     display: grid;
     justify-content: center;
@@ -203,7 +216,9 @@ font-family: "OpenSans-Regular";
 
 #projet {
     height: 577px;
-    background-color: rgb(62, 62, 62);
+    background: url(/assets/images/notre\ pédagogie\ bg.png) no-repeat;
+    width: 100%;
+    background-position: center;
     color: white;
 
 }
@@ -234,16 +249,10 @@ font-family: "OpenSans-Regular";
 
 .projetimg {
     padding-top: 77px;
+    padding-right: 0;
     width: 100%;
 }
 
-.projet {
-    
-}
 
-.chacun {
-   
-    
-}
 /* section À chacun son projet end */
 
