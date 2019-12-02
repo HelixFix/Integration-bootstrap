@@ -110,12 +110,20 @@ nav {
     font-size: 16px;
 }
 
-.navbar-toggler-icon {
+/*.navbar-toggler-icon {
     color: white;
-}
+}*/
 
 .nav-item:hover a {
     background: rgb(211, 31, 68);
+}
+
+#accueil {
+    color: rgb(211, 31, 68);
+}
+
+#accueil:hover {
+    background: rgb(255, 255, 255);
 }
 
 .btn-more {
