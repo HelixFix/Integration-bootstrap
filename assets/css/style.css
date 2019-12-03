@@ -281,6 +281,7 @@ nav {
     width: 200px;
     font-family: "OpenSans-Regular";
     font-size: 0.875rem;
+    margin-bottom: 6%;
 }
 
 .youtube {
@@ -294,6 +295,7 @@ nav {
 
 .projet {
     padding-right: 0px;
+    padding-bottom: 6%;
 }
 
 #projet {
@@ -304,8 +306,8 @@ nav {
     padding-top: 77px;
     padding-right: 0;
     width: 100%;
-    align-items: center;
-    display: grid;
+    margin-top: 1%;
+    padding-right: 2%;
     padding-left: 0px;
 }
 
