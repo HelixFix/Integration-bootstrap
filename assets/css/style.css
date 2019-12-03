@@ -1,91 +1,89 @@
 * {
     box-sizing: border-box;
     margin: 0;
-    padding: 0;   
+    padding: 0;
 }
 
 
 :root {
-    --padding-section:50px 10px;
+    --padding-section: 3%;
     --pane-padding: 5px 42px;
-  }
-  
+}
+
 /*.test {
     background: green;
     padding: var(--padding-section);
 }*/
 
 
-@font-face
-{
-font-family: 'OpenSans-semiBolt';
-font-style: normal;
-font-weight: normal;
-src: local('OpenSans'), url('/assets/fonts/Open_sans_font/OpenSans-SemiBold.ttf') format('woff');
+@font-face {
+    font-family: 'OpenSans-semiBolt';
+    font-style: normal;
+    font-weight: normal;
+    src: local('OpenSans'), url('/assets/fonts/Open_sans_font/OpenSans-SemiBold.ttf') format('woff');
 }
 
-@font-face
-{
-font-family: 'OpenSans-Light';
-font-style: normal;
-font-weight: normal;
-src: local('OpenSans-Light'), url('/assets/fonts/Open_sans_font/OpenSans-Light.ttf') format('woff');
+@font-face {
+    font-family: 'OpenSans-Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local('OpenSans-Light'), url('/assets/fonts/Open_sans_font/OpenSans-Light.ttf') format('woff');
 }
 
-@font-face
-{
-font-family: 'OpenSans-Regular';
-font-style: normal;
-font-weight: normal;
-src: local('OpenSans-Regular'), url('/assets/fonts/Open_sans_font/OpenSans-Regular.ttf') format('woff');
+@font-face {
+    font-family: 'OpenSans-Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('OpenSans-Regular'), url('/assets/fonts/Open_sans_font/OpenSans-Regular.ttf') format('woff');
 }
 
-@font-face
-{
-font-family: 'OpenSans-Bold';
-font-style: normal;
-font-weight: normal;
-src: local('OpenSans-Bold'), url('/assets/fonts/Open_sans_font/OpenSans-Bold.ttf') format('woff');
+@font-face {
+    font-family: 'OpenSans-Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('OpenSans-Bold'), url('/assets/fonts/Open_sans_font/OpenSans-Bold.ttf') format('woff');
 }
 
 @media (max-width: 568px) {
     .formationColGauche {
         text-align: center !important;
     }
+
     .youtube {
         padding-top: 6%;
         align-items: center;
+        padding-bottom: 6% !important;
     }
+
     h1 {
         padding-top: 6% !important;
     }
-  }
-  @media (max-width: 992px) {
+}
+
+@media (max-width: 992px) {
     .youtube {
         padding-top: 6%;
         align-items: center;
+        padding-bottom: 6% !important;
     }
+
     h1 {
         padding-top: 6% !important;
     }
-  }
-  @media (max-width: 1200px) {
-      
-    
-  }
+}
+
+@media (max-width: 1200px) {}
 
 ul {
     text-transform: uppercase;
 }
 
-sectionl {
-    padding:50px 10px;
-}
+
 
 h1 {
     color: white;
     padding-top: 300px;
-    font-size: 50px;
+    font-size: 3.125rem;
     font-family: 'OpenSans-semiBolt';
 }
 
@@ -93,31 +91,31 @@ h2 {
     color: white;
     background-color: rgba(83, 83, 83, 0.5);
     font-family: "OpenSans-Light";
-    font-size: 36px;
+    font-size: 2.25rempx;
 }
 
 h3 {
 
     text-transform: uppercase;
     padding-top: 70px;
-    
-    padding-bottom: 23px;
+
+    padding-bottom: 1.4375rem;
 }
 
 h4 {
-    font-size: 14px;
+    font-size: 0.875rem;
     font-family: 'OpenSans-Bold';
 
 }
 
 p {
-    font-size: 14px;
+    font-size: 0.875rem;
     font-family: "OpenSans-Regular";
 }
 
 .title {
     font-family: 'OpenSans-semiBolt';
-    font-size: 30px;
+    font-size: 1.875rem;
     margin-bottom: 0px;
 
 }
@@ -131,21 +129,19 @@ p {
     padding-left: 0px;
     padding-right: 0px;
 }
-#enseignement p 
-{
-    margin:10px 0 50px 0;
-}
+
 
 .inter {
     padding-top: 40px;
     margin-bottom: 0px;
 }
 
+
 /* header start */
 /* nav start */
 
 #header {
-    background: url(/assets/images/bg-header.png) no-repeat center ;
+    background: url(/assets/images/bg-header.png) no-repeat center;
     background-position: center;
     padding-bottom: 273px;
 }
@@ -164,10 +160,8 @@ nav {
     width: 100%;
     background-position: center;
     font-family: 'OpenSans-semiBolt';
-    font-size: 16px;
+    font-size: 1rem;
 }
-
-
 
 
 /*.navbar-toggler-icon {
@@ -195,6 +189,8 @@ nav {
     margin-right: auto;
     line-height: 53px;
     color: white;
+    font-family: "OpenSans-Regular";
+    font-size: 0.875rem;
 }
 
 
@@ -204,7 +200,7 @@ nav {
 /* section GEN start */
 
 #gen {
-    
+
     background-color: white;
 }
 
@@ -249,6 +245,7 @@ nav {
 .formationColDroite {
     padding-top: 15px;
 }
+
 /*#logo-gen {
     display: flex;
     flex-wrap: wrap;
@@ -263,7 +260,7 @@ nav {
 
 #enseignement {
 
-    background: url(/assets/images/projet-collaboratif-bg.png) no-repeat center ;
+    background: url(/assets/images/projet-collaboratif-bg.png) no-repeat center;
     background-size: cover;
     color: white;
     width: 100%;
@@ -274,11 +271,10 @@ nav {
 }
 
 
-
 #p-enseignement {
 
-font-family: "OpenSans-Regular";
-    font-size: 14px;
+    font-family: "OpenSans-Regular";
+    font-size: 0.875rem;
     text-align: center;
 
 
@@ -296,24 +292,20 @@ font-family: "OpenSans-Regular";
 /* section À chacun son métier start */
 
 #projet {
-    
-    background: url(/assets/images/notre\ pédagogie\ bg.png) no-repeat center ;
+
+    background: url(/assets/images/notre\ pédagogie\ bg.png) no-repeat center;
     background-size: cover;
     width: 100%;
     background-position: center;
     color: white;
-    
+
 }
 
-
-
 .métier {
-    
+
     padding-bottom: 29px;
     margin-bottom: 0px;
 }
-
-
 
 .btn-register {
     text-align: center;
@@ -321,6 +313,8 @@ font-family: "OpenSans-Regular";
     background-image: url(/assets/images/btn\ bg.png);
     text-transform: uppercase;
     width: 200px;
+    font-family: "OpenSans-Regular";
+    font-size: 0.875rem;
 }
 
 .youtube {
@@ -338,12 +332,9 @@ font-family: "OpenSans-Regular";
 
 #titre-pro {
     background-color: white;
-    
+
 
 }
-
-
-
 
 .projetimg {
     padding-top: 77px;
@@ -354,8 +345,4 @@ font-family: "OpenSans-Regular";
     padding-left: 0px;
 }
 
-
-
-
 /* section À chacun son projet end */
-
