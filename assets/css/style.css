@@ -1,10 +1,19 @@
 * {
     box-sizing: border-box;
     margin: 0;
-    padding: 0;
+    padding: 0;   
 }
 
 
+:root {
+    --padding-section:50px 10px;
+    --pane-padding: 5px 42px;
+  }
+  
+/*.test {
+    background: green;
+    padding: var(--padding-section);
+}*/
 
 
 @font-face
@@ -69,7 +78,9 @@ ul {
     text-transform: uppercase;
 }
 
-
+sectionl {
+    padding:50px 10px;
+}
 
 h1 {
     color: white;
@@ -120,7 +131,10 @@ p {
     padding-left: 0px;
     padding-right: 0px;
 }
-
+#enseignement p 
+{
+    margin:10px 0 50px 0;
+}
 
 .inter {
     padding-top: 40px;
@@ -131,7 +145,7 @@ p {
 /* nav start */
 
 #header {
-    background: url(/assets/images/bg-header.png) no-repeat center fixed;
+    background: url(/assets/images/bg-header.png) no-repeat center ;
     background-position: center;
     padding-bottom: 273px;
 }
@@ -335,13 +349,12 @@ font-family: "OpenSans-Regular";
     padding-top: 77px;
     padding-right: 0;
     width: 100%;
-}
-
-.test {
     align-items: center;
     display: grid;
     padding-left: 0px;
 }
+
+
 
 
 /* section À chacun son projet end */
