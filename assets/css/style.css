@@ -79,7 +79,6 @@ ul {
 }
 
 
-
 h1 {
     color: white;
     padding-top: 300px;
@@ -151,7 +150,6 @@ a.nav-link {
     padding-top: 39px;
     padding-bottom: 39px;
     margin: 0 0;
-
 }
 
 nav {
@@ -204,18 +202,16 @@ nav {
     background-color: white;
 }
 
-#formation {
+
+#labelNum {
     padding-top: 95px;
 }
-
 
 .logocenter {
     display: flex;
     justify-content: center;
     padding-bottom: 6%;
 }
-
-
 
 #formationColGauche {
     text-align: right;
@@ -230,8 +226,6 @@ nav {
 }
 
 
-
-
 /* section GEN end */
 
 /* section Un enseignement adapté start*/
@@ -243,7 +237,6 @@ nav {
     color: white;
     width: 100%;
     background-position: center;
-    
 }
 
 
@@ -252,8 +245,6 @@ nav {
     font-family: "OpenSans-Regular";
     font-size: 0.875rem;
     text-align: center;
-
-
 }
 
 .logo {
@@ -274,7 +265,6 @@ nav {
     width: 100%;
     background-position: center;
     color: white;
-
 }
 
 .métier {
@@ -308,8 +298,6 @@ nav {
 
 #projet {
     background-color: white;
-
-
 }
 
 .projetimg {
