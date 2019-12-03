@@ -147,6 +147,7 @@ p {
 
 a.nav-link {
     color: white;
+    
     padding-top: 39px;
     padding-bottom: 39px;
     margin: 0 0;
@@ -161,6 +162,10 @@ nav {
     font-size: 1rem;
 }
 
+.inscription {
+    background: rgb(211, 31, 68);
+}
+
 
 /*.navbar-toggler-icon {
     color: white;
@@ -170,13 +175,9 @@ nav {
     background: rgb(211, 31, 68);
 }
 
-#accueil {
-    color: rgb(211, 31, 68);
-}
 
-#accueil:hover {
-    background: rgb(255, 255, 255);
-}
+
+
 
 .btn-more {
     text-align: center;
