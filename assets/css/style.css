@@ -216,42 +216,18 @@ nav {
 }
 
 
-/*
-#formation  ul {
-    
-    list-style: none;
-    word-wrap: break-word;
-    margin: 0;
-    
-}
-
-#formation li {
-    word-wrap: break-word;
-}
-
-#formation  li::before {
-    content: "•";
-    color: red;
-    width: 1.2em;
-    margin-left: -3em
-}*/
 
 #formationColGauche {
     text-align: right;
     padding-left: 0px;
     margin-top: 4%;
-   
+
 }
 
 .formationColDroite {
     padding-top: 15px;
     margin-top: 1%;
 }
-
-/*#logo-gen {
-    display: flex;
-    flex-wrap: wrap;
-}*/
 
 
 
@@ -267,9 +243,7 @@ nav {
     color: white;
     width: 100%;
     background-position: center;
-    /*padding-bottom: 73px;
-    padding-top: 72px;*/
-
+    
 }
 
 
@@ -293,7 +267,7 @@ nav {
 
 /* section À chacun son métier start */
 
-#projet {
+#métier {
 
     background: url(/assets/images/notre\ pédagogie\ bg.png) no-repeat center;
     background-size: cover;
@@ -332,7 +306,7 @@ nav {
     padding-right: 0px;
 }
 
-#titre-pro {
+#projet {
     background-color: white;
 
 
