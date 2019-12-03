@@ -206,7 +206,6 @@ nav {
 
 #formation {
     padding-top: 95px;
-
 }
 
 
@@ -240,10 +239,13 @@ nav {
 #formationColGauche {
     text-align: right;
     padding-left: 0px;
+    margin-top: 4%;
+   
 }
 
 .formationColDroite {
     padding-top: 15px;
+    margin-top: 1%;
 }
 
 /*#logo-gen {
