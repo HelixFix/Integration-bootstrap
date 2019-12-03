@@ -39,13 +39,31 @@ font-weight: normal;
 src: local('OpenSans-Bold'), url('/assets/fonts/Open_sans_font/OpenSans-Bold.ttf') format('woff');
 }
 
-/*
-@media (min-width: 360) {
-    .container {
-        max-width: 360;
+@media (max-width: 568px) {
+    .formationColGauche {
+        text-align: center !important;
     }
-}
-*/
+    .youtube {
+        padding-top: 6%;
+        align-items: center;
+    }
+    h1 {
+        padding-top: 6% !important;
+    }
+  }
+  @media (max-width: 992px) {
+    .youtube {
+        padding-top: 6%;
+        align-items: center;
+    }
+    h1 {
+        padding-top: 6% !important;
+    }
+  }
+  @media (max-width: 1200px) {
+      
+    
+  }
 
 ul {
     text-transform: uppercase;
@@ -113,7 +131,7 @@ p {
 /* nav start */
 
 #header {
-    background: url(/assets/images/bg-header.png) no-repeat;
+    background: url(/assets/images/bg-header.png) no-repeat center fixed;
     background-position: center;
     padding-bottom: 273px;
 }
@@ -134,6 +152,9 @@ nav {
     font-family: 'OpenSans-semiBolt';
     font-size: 16px;
 }
+
+
+
 
 /*.navbar-toggler-icon {
     color: white;
@@ -169,7 +190,7 @@ nav {
 /* section GEN start */
 
 #gen {
-    padding-bottom: 114px;
+    
     background-color: white;
 }
 
@@ -182,6 +203,7 @@ nav {
 .logocenter {
     display: flex;
     justify-content: center;
+    padding-bottom: 6%;
 }
 
 
@@ -210,6 +232,9 @@ nav {
     padding-left: 0px;
 }
 
+.formationColDroite {
+    padding-top: 15px;
+}
 /*#logo-gen {
     display: flex;
     flex-wrap: wrap;
@@ -224,11 +249,13 @@ nav {
 
 #enseignement {
 
-    background: url(/assets/images/projet-collaboratif-bg.png) no-repeat;
+    background: url(/assets/images/projet-collaboratif-bg.png) no-repeat center ;
+    background-size: cover;
     color: white;
     width: 100%;
     background-position: center;
-    padding-bottom: 73px;
+    /*padding-bottom: 73px;
+    padding-top: 72px;*/
 
 }
 
@@ -255,8 +282,9 @@ font-family: "OpenSans-Regular";
 /* section À chacun son métier start */
 
 #projet {
-    height: 577px;
-    background: url(/assets/images/notre\ pédagogie\ bg.png) no-repeat;
+    
+    background: url(/assets/images/notre\ pédagogie\ bg.png) no-repeat center ;
+    background-size: cover;
     width: 100%;
     background-position: center;
     color: white;
@@ -271,6 +299,20 @@ font-family: "OpenSans-Regular";
     margin-bottom: 0px;
 }
 
+
+
+.btn-register {
+    text-align: center;
+    line-height: 53px;
+    background-image: url(/assets/images/btn\ bg.png);
+    text-transform: uppercase;
+    width: 200px;
+}
+
+.youtube {
+    padding-bottom: 1%;
+}
+
 /* section À chacun son métier end */
 
 
@@ -282,18 +324,12 @@ font-family: "OpenSans-Regular";
 
 #titre-pro {
     background-color: white;
-    height: 453px;
+    
 
 }
 
 
-.btn-register {
-    text-align: center;
-    line-height: 53px;
-    background-image: url(/assets/images/btn\ bg.png);
-    text-transform: uppercase;
-    width: 200px;
-}
+
 
 .projetimg {
     padding-top: 77px;
